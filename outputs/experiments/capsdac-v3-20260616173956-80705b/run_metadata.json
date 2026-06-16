@@ -1,0 +1,16 @@
+{
+  "run_id": "capsdac-v3-20260616173956-80705b",
+  "created_utc": "2026-06-16T17:39:56.216671+00:00",
+  "package_level": "V3 Machine Learning Engineer Ready",
+  "tracking_mode": "local_file_mlflow_style",
+  "selection_metric": "rmse",
+  "selected_model": "linear_regression",
+  "selected_params": {},
+  "selected_metrics": {
+    "mae": 0.30839270729783247,
+    "rmse": 0.37777862424033093,
+    "mape": 0.3481107428700832,
+    "r2": 0.9991995200142202
+  },
+  "artifact_uri": "outputs/experiments/capsdac-v3-20260616173956-80705b"
+}
