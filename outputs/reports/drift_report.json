@@ -1,0 +1,132 @@
+{
+  "baseline_end": "2024-12-01",
+  "current_start": "2025-07-01",
+  "method": "population_stability_index",
+  "thresholds": {
+    "stable": "<0.10",
+    "moderate": "0.10-0.25",
+    "high": ">=0.25"
+  },
+  "features": [
+    {
+      "feature": "lag_1",
+      "psi": 2.3597096711324714,
+      "status": "high",
+      "baseline_mean": 80.81944444444444,
+      "current_mean": 83.33333333333333
+    },
+    {
+      "feature": "lag_3",
+      "psi": 3.2726162073778817,
+      "status": "high",
+      "baseline_mean": 79.93055555555556,
+      "current_mean": 78.83333333333333
+    },
+    {
+      "feature": "lag_6",
+      "psi": 3.7575508923896996,
+      "status": "high",
+      "baseline_mean": 78.56944444444444,
+      "current_mean": 84.66666666666667
+    },
+    {
+      "feature": "lag_12",
+      "psi": 4.719609933110805,
+      "status": "high",
+      "baseline_mean": 75.83333333333333,
+      "current_mean": 82.11111111111111
+    },
+    {
+      "feature": "rolling_3",
+      "psi": 1.1216762500206303,
+      "status": "high",
+      "baseline_mean": 80.37962962962963,
+      "current_mean": 80.83333333333334
+    },
+    {
+      "feature": "rolling_6",
+      "psi": 5.04495120298198,
+      "status": "high",
+      "baseline_mean": 79.70370370370371,
+      "current_mean": 81.33333333333331
+    },
+    {
+      "feature": "rolling_12",
+      "psi": 6.336285394850933,
+      "status": "high",
+      "baseline_mean": 78.33564814814814,
+      "current_mean": 84.47222222222223
+    },
+    {
+      "feature": "month_sin",
+      "psi": 8.593387339706291,
+      "status": "high",
+      "baseline_mean": -7.868804024511083e-18,
+      "current_mean": -0.7886751345948126
+    },
+    {
+      "feature": "month_cos",
+      "psi": 8.593387339706291,
+      "status": "high",
+      "baseline_mean": -4.5726687344757515e-17,
+      "current_mean": -0.45534180126147983
+    },
+    {
+      "feature": "trend_index",
+      "psi": 11.561538276029477,
+      "status": "high",
+      "baseline_mean": 18.5,
+      "current_mean": 32.0
+    },
+    {
+      "feature": "site_capacity",
+      "psi": 0.0,
+      "status": "stable",
+      "baseline_mean": 102.16666666666667,
+      "current_mean": 102.16666666666667
+    },
+    {
+      "feature": "capacity_utilization_lag1",
+      "psi": 2.955781145280863,
+      "status": "high",
+      "baseline_mean": 0.7861364689837149,
+      "current_mean": 0.8113312556477682
+    },
+    {
+      "feature": "attendance_rate_lag1",
+      "psi": 4.261492107662543,
+      "status": "high",
+      "baseline_mean": 0.9133333333333334,
+      "current_mean": 0.899673079295489
+    },
+    {
+      "feature": "teacher_student_ratio_lag1",
+      "psi": 2.001370727318176,
+      "status": "high",
+      "baseline_mean": 0.08979604355297605,
+      "current_mean": 0.088275264603175
+    },
+    {
+      "feature": "county_population_index",
+      "psi": 0.09241962407465937,
+      "status": "stable",
+      "baseline_mean": 108.0,
+      "current_mean": 109.5
+    },
+    {
+      "feature": "county_unemployment_proxy",
+      "psi": 6.589473454185372,
+      "status": "high",
+      "baseline_mean": 4.375,
+      "current_mean": 4.300000000000001
+    },
+    {
+      "feature": "EnrollmentCount",
+      "psi": 3.697291904538945,
+      "status": "high",
+      "baseline_mean": 81.27777777777777,
+      "current_mean": 87.33333333333333
+    }
+  ],
+  "overall_status": "high"
+}

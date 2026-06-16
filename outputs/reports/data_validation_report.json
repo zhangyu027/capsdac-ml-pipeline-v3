@@ -1,0 +1,23 @@
+{
+  "row_count": 216,
+  "column_count": 9,
+  "required_columns": [
+    "SnapshotMonth",
+    "VendorNumber",
+    "VendorName",
+    "PreschoolCDSCode",
+    "SiteName",
+    "County",
+    "EnrollmentCount",
+    "FundingType",
+    "DataSource"
+  ],
+  "missing_required_columns": [],
+  "duplicate_grain_count": 0,
+  "negative_enrollment_count": 0,
+  "bad_month_format_count": 0,
+  "snapshot_month_min": "2023-01",
+  "snapshot_month_max": "2025-12",
+  "site_count": 6,
+  "vendor_count": 4
+}

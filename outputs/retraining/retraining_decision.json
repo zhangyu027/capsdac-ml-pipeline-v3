@@ -1,0 +1,17 @@
+{
+  "retraining_policy": "monthly_challenger_training_with_champion_comparison",
+  "triggered": true,
+  "trigger_reasons": [
+    "Data drift status is high."
+  ],
+  "new_month_workflow": [
+    "ingest_new_snapshot",
+    "validate_data_contracts",
+    "rebuild_feature_store",
+    "train_challenger_models",
+    "compare_against_champion",
+    "promote_or_reject",
+    "publish_forecasts_and_monitoring_report"
+  ],
+  "production_note": "In production this would be scheduled by Airflow/Cloud Composer or GitHub Actions and registered in MLflow/Vertex AI."
+}

@@ -1,0 +1,2 @@
+run_id,created_utc,package_level,tracking_mode,selection_metric,selected_model,selected_params,selected_metrics,artifact_uri
+capsdac-v3-20260616173023-5cb0eb,2026-06-16T17:30:23.214174+00:00,V3 Machine Learning Engineer Ready,local_file_mlflow_style,rmse,linear_regression,{},"{'mae': 0.3083927072978305, 'rmse': 0.3777786242403254, 'mape': 0.34811074287008187, 'r2': 0.9991995200142202}",outputs/experiments/capsdac-v3-20260616173023-5cb0eb

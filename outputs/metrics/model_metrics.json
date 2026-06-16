@@ -1,0 +1,21 @@
+{
+  "package_level": "Level 3 Machine Learning Engineer Ready",
+  "selected_model_name": "linear_regression",
+  "selected_params": {},
+  "time_series_cv_avg_metrics": {
+    "mae": 0.3083927072978305,
+    "rmse": 0.3777786242403254,
+    "mape": 0.34811074287008187,
+    "r2": 0.9991995200142202
+  },
+  "cv_strategy": "expanding-window monthly validation",
+  "forecast_horizon_months": 3,
+  "train_target": "TargetEnrollmentH3",
+  "model_artifact": "models/capsdac_v3_challenger_forecast_model.joblib",
+  "business_tasks": [
+    "site_enrollment_forecast",
+    "program_demand",
+    "capacity_risk",
+    "staffing_need"
+  ]
+}

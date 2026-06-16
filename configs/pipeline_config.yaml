@@ -1,0 +1,26 @@
+project_name: capsdac_ml_pipeline
+environment: portfolio_demo
+data_scope: California CSPP aggregate planning
+privacy:
+  public_data_only: true
+  no_child_level_pii: true
+  deidentified_sample: true
+model:
+  type: RandomForestRegressor
+  horizon_months: 5
+  features:
+    - lag_1
+    - lag_3
+    - lag_6
+    - lag_12
+    - rolling_3
+    - rolling_6
+    - month_sin
+    - month_cos
+    - trend_index
+outputs:
+  - statewide_forecast
+  - vendor_forecast
+  - site_forecast
+  - feature_importance
+  - model_metrics

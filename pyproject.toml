@@ -1,0 +1,20 @@
+[project]
+name = "capsdac-ml-platform-v3"
+version = "3.1.0"
+description = "Level 3 MLE-ready CAPSDAC forecasting platform with 3-month-ahead forecasting, experiment tracking, model registry, retraining, API, and dashboard."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "joblib",
+  "pyyaml",
+  "matplotlib",
+  "fastapi",
+  "uvicorn",
+  "streamlit",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["forecasting"]
+testpaths = ["tests"]
