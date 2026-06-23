@@ -1,7 +1,0 @@
-ForecastMonth,ForecastHorizonMonths,VendorNumber,VendorName,PreschoolCDSCode,SiteName,County,FundingType,site_capacity,PredictedEnrollment,CapacityRiskFlag,StaffingNeedEstimate
-2025-12,3,2841,Valley Early Learning,19648896000004,Valley Early Learning LA,Los Angeles,CSPP,125.0,117,False,10
-2025-12,3,2841,Valley Early Learning,19648896000005,Valley Early Learning Pomona,Los Angeles,CCTR,95.0,88,False,7
-2025-12,3,4312,Golden State Preschool,37683386000003,Golden State San Diego,San Diego,CCTR,96.0,92,True,8
-2025-12,3,5920,Central Coast Kids,40688016000006,Central Coast Kids SLO,San Luis Obispo,CSPP,83.0,73,False,6
-2025-12,3,6785,BrightStart Education,19647336000001,BrightStart Irvine,Orange,CSPP,113.0,112,True,9
-2025-12,3,6785,BrightStart Education,19647336000002,BrightStart Anaheim,Orange,CSPP,101.0,96,True,8
